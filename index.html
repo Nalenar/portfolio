@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./src/assets/favicon.png" />
+
+    <title>Никита Зиновьев | Front-end Developer</title>
+    <meta name="keywords" content="Nalenar, Никита, HTML/CSS/JS" />
+    <meta name="description" content="It's just a student portfolio" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Здравствуйте, меня зовут <span class="text-color-main">Никита</span>.
+          <br>
+          Я -  <span class="text-color-main">cтудент</span> третьекурсник.
+          <br>
+          Моя цель - стать <span class="text-color-main">Front-end Developer'ом</span>.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Узнать больше</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Обо мне</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./src/assets/profile1.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                    В данный момент я – студент-третьекурсник в РТУ МИРЭА по направлению «Программная инженерия».
+                <br><br>
+                Также я постоянно совершенствую свои знания и прохожу англоязычные курсы, чтобы лучше разбираться в сфере программирования (в данный момент в процессе освоения «The Complete Web Developer in 2023: Zero to Mastery»),
+                <br><br>
+                Быстро обучаюсь, ответственно и своевременно выполняю задачи, легко нахожу общий язык с людьми и люблю работать в команде. С легкостью понимаю информацию на английском языке. Активно изучаю сферу разработки веб-приложений и создаю PET-проекты. Буду рад применить свои знания на практике и научиться всему новому.
+              </p>
+              <p class="about-wrapper__info-text">
+                <br>
+                Личные качества: пунктуальный и ответственный подход к решению задач, соблюдение временных рамок. Общительный и вежливый.
+                <br>
+                Хобби: настольные игры, чтение книг
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="./src/assets/resume.pdf"
+                >
+                  Посмотреть Резюме
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Проекты</h2>
+
+          <!-- Start Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pong Game</h3>
+                <div>
+                  <p class="mb-4">
+                    После изучения основ HTML/CSS/JS я создал простую игру.
+                    В ходе создания лучше разобрался в работе ECMAScript 6, объектов и классов.
+                    А также, что не мало важно, получил базовые знания DOM манипуляций.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://nalenar.github.io/pong-game/"
+                >
+                  Сайт
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Nalenar/pong-game"
+                >
+                  Исходный код
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://nalenar.github.io/pong-game/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./src/assets/project1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Start Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Dwarf Game</h3>
+                <div>
+                  <p class="mb-4">
+                    Данный проект помог мне освоить простую анимацию спрайтов, создание эффекта гравитации и границ игрового поля, а еще перехода между игровыми сценами.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://nalenar.github.io/dwarf-game/"
+                >
+                  Сайт
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Nalenar/dwarf-game"
+                >
+                  Исходный код
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://nalenar.github.io/dwarf-game/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./src/assets/project2.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Start Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">RoboFriends</h3>
+                <div>
+                  <p class="mb-4">
+                    В этом проекте я учился использовать библиотеку React.js. А именно, пропсы, стэйты, чилдрены.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://nalenar.github.io/robofriends/"
+                >
+                  Сайт
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Nalenar/robofriends"
+                >
+                  Исходный код
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://nalenar.github.io/robofriends/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./src/assets/project3.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Start Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Bank Modern App</h3>
+                <div>
+                  <p class="mb-4">
+                    Применив накопленные навыки, а также, использовав материалы новой библиотеки TailWind, создал сайт с элементами React.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://nalenar.github.io/bank_modern_app/"
+                >
+                  Сайт
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Nalenar/bank_modern_app"
+                >
+                  Исходный код
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://nalenar.github.io/bank_modern_app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./src/assets/project4.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            +7(916)578-39-61
+            <br>
+            WhatsApp & Telegram
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:nikita.zinovyev.staff@gmail.com"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://github.com/Nalenar" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2021 - Developed by
+          <a rel="noreferrer" href="https://github.com/Nalenar" target="_blank"
+            >Nalenar</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
